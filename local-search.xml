@@ -60,7 +60,7 @@
     <link href="/2021/02/18/test-file/"/>
     <url>/2021/02/18/test-file/</url>
     
-    <content type="html"><![CDATA[<p>This is a test file.</p><h2 id="sctupup"><a class="markdownIt-Anchor" href="#sctupup"></a> sctupup</h2><h3 id="sctupup-2"><a class="markdownIt-Anchor" href="#sctupup-2"></a> sctupup</h3><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">hi</span><br></code></pre></td></tr></table></figure><pre><code>print('HELLO WORLD')</code></pre><p><img src="/home/pi/Desktop/study/hexo/source/img/favicon.png" srcset="/img/loading.gif" alt="avatar" /></p>]]></content>
+    <content type="html"><![CDATA[<p>This is a test file.</p><h2 id="sctupup"><a class="markdownIt-Anchor" href="#sctupup"></a> sctupup</h2><h3 id="sctupup-2"><a class="markdownIt-Anchor" href="#sctupup-2"></a> sctupup</h3><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">hi</span><br></code></pre></td></tr></table></figure><pre><code>print('HELLO WORLD')</code></pre><p><img src="https://github.com/sctupup/sctupup.github.io/blob/main/img/default.png" srcset="/img/loading.gif" alt="avatar" /></p>]]></content>
     
     
     
