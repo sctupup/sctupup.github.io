@@ -1,0 +1,546 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=&quot;auto&quot;>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://s3.ax1x.com/2021/03/02/6k33c9.jpg">
+  <link rel="icon" type="image/png" href="https://s3.ax1x.com/2021/03/02/6k33c9.jpg">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="description" content="">
+  <meta name="author" content="sctupup">
+  <meta name="keywords" content="">
+  <title>会计的计量属性 - 苏褚桐的个人博客</title>
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.4.0/styles/github-gist.min.css" />
+    
+  
+
+  
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    var CONFIG = {"hostname":"sctupup.github.io","root":"/","version":"1.8.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":false,"onlypost":true},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+<meta name="generator" content="Hexo 5.3.0"></head>
+
+
+<body>
+  <header style="height: 70vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>sct's space</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;</a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" href="javascript:">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner" id="banner" parallax=true
+         style="background: url('https://s3.ax1x.com/2021/02/25/yjrqvn.jpg') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="page-header text-center fade-in-up">
+            <span class="h2" id="subtitle" title="会计的计量属性">
+              
+            </span>
+
+            
+              <div class="mt-3">
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2021-03-17 17:22" pubdate>
+        2021年3月17日 下午
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      2.4k 字
+    </span>
+  
+
+  
+
+  
+  
+</div>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">会计的计量属性</h1>
+            
+            <div class="markdown-body">
+              <h1 id="会计的计量属性"><a class="markdownIt-Anchor" href="#会计的计量属性"></a> 会计的计量属性</h1>
+<h2 id="历史成本"><a class="markdownIt-Anchor" href="#历史成本"></a> 历史成本</h2>
+<p>历史成本又称为实际成本，就是取得或制造某项财产物资时所实际支付的现金或者其他等价物。在历史成本计量下，资产按照其购置时支付的现金或者现金等价物的金额，或者按照购置资产时所付出的对价的公允价值计量；负债按照其因承担现时义务而实际收到的款项或者资产的金额，或者承担现时义务的合同金额，或者按照日常活动中为偿还负债预期需要支付的现金或者现金等价物的金额计量。</p>
+<h3 id="以现金结算金额确认历史成本"><a class="markdownIt-Anchor" href="#以现金结算金额确认历史成本"></a> 以现金结算金额确认历史成本。</h3>
+<p>这种方法是指按照购买资产时支付的现金确认历史成本，即企业购买某一项资产按照其市价所支付的买价及其附带成本等全部金额</p>
+<h4 id="例-1"><a class="markdownIt-Anchor" href="#例-1"></a> 【例 1】</h4>
+<p>甲公司购入办公设备一台，价款 20 000 元，运输费用 500 元，安装调试费 200 元。<br />
+按现金结算金额确定设备的历史成本=20 000 +500 +200 = 20 700（元）<br />
+实际生产经营过程中，企业购买原材料、库存商品、固定资产、无形资产等支付现金的情况很多，这些财产的实际成本一般就是企业所支付的全部支出。同理，上述资产购进业务发生时，若不能及时支付价款而产生的负债，其历史成本的确认金额与资产相等，也就是准则要求的“按照日常活动中为偿还负债预期需要支付的现金或者现金等价物的金额计量”。</p>
+<h3 id="非货币性资产以公允价值确认历史成本的方法"><a class="markdownIt-Anchor" href="#非货币性资产以公允价值确认历史成本的方法"></a> 非货币性资产以公允价值确认历史成本的方法。</h3>
+<p>在历史成本计量下，资产的入账价值按照购置资产时所付出的对价的公允价值计量，也可以根据资产公允价值直接作为实际成本入账。</p>
+<h4 id="例-2"><a class="markdownIt-Anchor" href="#例-2"></a> 【例 2】</h4>
+<p>甲公司 20×4 年 12 月 1 日，以 5 000 000 元购入房地产一幢，作<br />
+为一项投资项目，并按照公允价值模式计量其成本。20×4 年 12 月 31 日，该房地产公允价值为 5 000 000 元；20×5 年 12 月 31 日，该房地产公允价值为 8 000000 元。20×6 年 3 月 31 日，经评估该房地产公允价值为 10 000 000 元。20×6年 3 月 31 日，甲公司将该房地产转为自用办公楼使用。其历史成本计算如下：办公楼实际成本=10 000 000（元）</p>
+<h2 id="重置成本"><a class="markdownIt-Anchor" href="#重置成本"></a> 重置成本</h2>
+<p>重置成本又称现行成本，是指按照当前市场条件，重新取得同样一项资产需要支付的现金或现金等价物的金额。在重置成本计量下，资产按照现在购买相同或者相似资产所需支付的现金或者现金等价物的金额计量；负债按照现在偿付该项债务所需支付的现金或者现金等价物的金额计量。现举例如下：</p>
+<h3 id="例-3"><a class="markdownIt-Anchor" href="#例-3"></a> 【例 3】</h3>
+<p>甲公司财产清查发现，某业务部门盘盈设备一台。经专业技术人2员评估，设备重置成本为 200 000 元，估计有八成新。企业对财产价值评估采用重置成本法，但不是按重置成本入账，而是按照重置成本扣除财产折耗价值后的余额入账。因此，该设备记账价值计算如下：设备入账价值=200 000－200 000×20%=160 000（元）</p>
+<h2 id="可变现净值"><a class="markdownIt-Anchor" href="#可变现净值"></a> 可变现净值</h2>
+<p>可变现净值是指在正常生产经营过程中以预计售价减去进一步加工成本和销售所必须的预计税金、费用后的净值。在可变现净值计量下，资产按照其正常对外销售所能收到现金或者现金等价物的金额扣减该资产至完工时估计将要发生的成本、估计的销售费用以及相关税金后的金额计量。现举例如下：</p>
+<h3 id="例-4"><a class="markdownIt-Anchor" href="#例-4"></a> 【例 4】</h3>
+<p>20×9 年 12 月 31 日，W 公司库存甲材料账面价值（历史成本）为 200 000 元，市场购买价格为 184 000 元。该材料用来生产的 A 产品销售价格为 300 000 元，估计生产成本为 320 000 元，材料进一步加工需要发生加工费 126 000 元，估计销售费用及税金为 10 000 元。W 公司库存准备直接对外出售的乙材料账面价值（历史成本）为 180 000 元，市场售价 176 000 元，销售乙材料可能发生销售费用 4 000 元。则该材料的可变现净值计算如下：<br />
+甲材料的可变现净值=300 000 – 126 000 – 10 000 = 164 000（元）<br />
+乙材料的可变现净值=176 000 – 4 000 = 172 000（元）</p>
+<h2 id="现值"><a class="markdownIt-Anchor" href="#现值"></a> 现值</h2>
+<p>现值是指对未来现金流量以恰当的折现率进行折现后的价值，是考虑货币时间价值因素的一种计量属性。在现值计量下，资产按照预计从其持续使用和最终处置中所产生的未来净现金流入量的折现金额计量；负债按照预计期限内需要偿还的未来净现金流出量的折现金额计量。现举例如下：</p>
+<h3 id="例-5"><a class="markdownIt-Anchor" href="#例-5"></a> 【例 5】</h3>
+<p>20×9 年 12 月 1 日，W 公司采用融资租赁方式租入设备一台。W 公司与租赁方签定协议规定：起租日为 20×9 年 12 月 31 日；租赁期 2 年；每年末支付租金 10 000 000 元；租赁期满，设备估计残值为 2 000 000 元，甲公司担保余值 1 000 000 元。预计该设备使用年限为 3 年，租赁内含报酬率为 6%，按照《企业会计准则第 4 号——固定资产》有关规定，W 公司该项固定资产的入账价值应按现值计算确定。计算过程如下：期限 2 年，利率 6%的年金现值系数=1.833；期限 2 年，利率 6%的复利现值<br />
+系数=0.890<br />
+该设备入账的现值=10 000 000×1.833+1 000 000×0.890=19 220 000（元）</p>
+<h2 id="公允价值"><a class="markdownIt-Anchor" href="#公允价值"></a> 公允价值</h2>
+<p>公允价值是指市场参与者在计量日发生的有序交易中，出售一项资产所能收到或者转移一项负债所需支付的价格。它是站在市场参与者的角度，针对某一计量日而言的一种后续计量模式。这里的有序交易是对市场交易状态的要求，有序是指在计量日之前的近一段时期内所计量的资产或负债的交易价额呈现出有规律可循的惯常状态，并非杂乱无章。</p>
+<h3 id="例-6"><a class="markdownIt-Anchor" href="#例-6"></a> 【例 6】</h3>
+<p>20×9 年 4 月 21 日，W 公司将作为固定资产使用的小型挖掘机一台，交换 X 公司库存 A 商品一批，作为商品对外出售。小型挖掘机原价 15 万元，折旧 2.5 万元，公允价值 8 万元；A 商品成本 5 万元，公允价值 8 万元，并按照 A 商品公允价值 8 万元及增值税税率 16%开出增值税专用发票。<br />
+本例中，W 公司用固定资产交换库存商品，存在非货币性资产交换具有商业实质的条件。按照新《企业会计准则第 7 号——非货币性资产交换》有关规定，3此项经济业务可以判断为具有商业实质的非货币性资产交换。因此，W 公司将作为固定资产使用的小型挖掘机一台，交换 X 公司库存 A 商品一批，作为商品对外出售。换入的 A 商品入账价值按其公允价值记账；X 公司用 A 商品一批，换入的小型挖掘机，其入账价值既包括其公允价值 80 000 元，也包括其应该负担的按 80 000 元计算的增值税 12 800 元。因此，各项交换资产最后入账价值计算如下：<br />
+库存 A 商品公允价值 = 80 000（元）小型挖掘机公允价值 = 80 000 + 12 800 = 92 800（元）</p>
+<h2 id="表-1-各种计量属性的比较"><a class="markdownIt-Anchor" href="#表-1-各种计量属性的比较"></a> 表 1 各种计量属性的比较</h2>
+<table>
+<thead>
+<tr>
+<th>计量属性</th>
+<th>对资产的计量</th>
+<th>对负债的计量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>历史成本</td>
+<td>按购置时的金额</td>
+<td>按购置时的金额</td>
+</tr>
+<tr>
+<td>重置成本</td>
+<td>重置成本</td>
+<td>按现在偿还的金额</td>
+</tr>
+<tr>
+<td>可变现净值</td>
+<td>按现时销售的金额</td>
+<td></td>
+</tr>
+<tr>
+<td>现 值</td>
+<td>按预计使用和处置产生的未来现金流入量折现金额</td>
+<td>按预计期限内需要偿还的净现金流出量折现的金额</td>
+</tr>
+<tr>
+<td>公允价值</td>
+<td>计量日有序交易中出售资产收到的金额</td>
+<td>计量日有序交易中转移负债所支付的金额</td>
+</tr>
+</tbody>
+</table>
+<div class="hljs code-wrapper"><pre><code>在各种会计要素计量属性中，历史成本通常反映的是资产或者负债过去的价值，而重置成本、可变现净值、现值以及公允价值通常反映的是资产或者负债的现时成本或者现时价值，是与历史成本相对应的计量属性。</code></pre></div>
+
+            </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/%E4%BC%9A%E8%AE%A1%E5%AD%A6/">会计学</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/%E7%AC%94%E8%AE%B0/">笔记</a>
+                    
+                  </div>
+                
+              </div>
+              
+                <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！</p>
+              
+              
+                <div class="post-prevnext">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2021/03/17/%E4%BC%9A%E8%AE%A1%E6%A0%B8%E7%AE%97%E6%96%B9%E6%B3%95/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">会计核算方法</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2021/03/16/%E6%B6%88%E8%B4%B9%E8%80%85%E8%A1%8C%E4%B8%BA/">
+                        <span class="hidden-mobile">消费者行为</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+              <!-- Comments -->
+              <article class="comments" id="comments">
+                
+                
+  <div class="disqus" style="width:100%">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      var disqus_config = function() {
+        this.page.url = 'https://sctupup.github.io/2021/03/17/%E4%BC%9A%E8%AE%A1%E7%9A%84%E8%AE%A1%E9%87%8F%E5%B1%9E%E6%80%A7/';
+        this.page.identifier = '/2021/03/17/%E4%BC%9A%E8%AE%A1%E7%9A%84%E8%AE%A1%E9%87%8F%E5%B1%9E%E6%80%A7/';
+      };
+      Fluid.utils.waitElementVisible('disqus_thread', function () {
+        var d = document, s = d.createElement('script');
+        s.src = '//' + '' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', new Date());
+        (d.head || d.body).appendChild(s);
+      });
+    </script>
+    <noscript>Please enable JavaScript to view the
+      <a target="_blank" href="https://disqus.com/?ref_noscript" rel="nofollow noopener noopener">comments powered by Disqus.</a>
+    </noscript>
+  </div>
+
+
+              </article>
+            
+          </article>
+        </div>
+      </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
+    
+
+    
+      <a id="scroll-top-button" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    
+  </main>
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+  </div>
+  
+
+  
+
+  
+</footer>
+
+<!-- SCRIPTS -->
+
+  <script  src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" ></script>
+<script  src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" ></script>
+<script  src="/js/debouncer.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+<!-- Plugins -->
+
+
+
+
+  
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/tocbot@4.12.0/dist/tocbot.min.js" ></script>
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" ></script>
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4.3.0/anchor.min.js" ></script>
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js" ></script>
+
+
+
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var title = document.getElementById('subtitle').title;
+      
+      typing(title)
+      
+    })(window, document);
+  </script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+  <script>
+    (function () {
+      var path = "/local-search.xml";
+      var inputArea = document.querySelector("#local-search-input");
+      inputArea.onclick = function () {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+        this.onclick = null
+      }
+    })()
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 主题的启动项 保持在最底部 -->
+<script  src="/js/boot.js" ></script>
+
+
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+</body>
+</html>
