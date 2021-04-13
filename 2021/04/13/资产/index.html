@@ -1,0 +1,635 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=&quot;auto&quot;>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://s3.ax1x.com/2021/03/02/6k33c9.jpg">
+  <link rel="icon" type="image/png" href="https://s3.ax1x.com/2021/03/02/6k33c9.jpg">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="description" content="">
+  <meta name="author" content="sctupup">
+  <meta name="keywords" content="">
+  <title>资产 - 苏褚桐的个人博客</title>
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.4.0/styles/github-gist.min.css" />
+    
+  
+
+  
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    var CONFIG = {"hostname":"sctupup.github.io","root":"/","version":"1.8.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":false,"onlypost":true},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+<meta name="generator" content="Hexo 5.3.0"></head>
+
+
+<body>
+  <header style="height: 70vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>sct's space</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;</a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" href="javascript:">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner" id="banner" parallax=true
+         style="background: url('https://s3.ax1x.com/2021/02/25/yjrqvn.jpg') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="page-header text-center fade-in-up">
+            <span class="h2" id="subtitle" title="资产">
+              
+            </span>
+
+            
+              <div class="mt-3">
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2021-04-13 19:03" pubdate>
+        2021年4月13日 晚上
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      2.3k 字
+    </span>
+  
+
+  
+
+  
+  
+</div>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">资产</h1>
+            
+            <div class="markdown-body">
+              <h1 id="资产"><a class="markdownIt-Anchor" href="#资产"></a> 资产</h1>
+<h2 id="货币资金"><a class="markdownIt-Anchor" href="#货币资金"></a> 货币资金</h2>
+<p>货币资金是指企业中以货币形态存在的资产</p>
+<ol>
+<li>库存现金</li>
+<li>银行存款</li>
+<li>其他货币资金</li>
+</ol>
+<h2 id="库存现金的核算"><a class="markdownIt-Anchor" href="#库存现金的核算"></a> 库存现金的核算</h2>
+<p>库存现金通常指存放在企业财务部门、由出纳人员经管的货币。库存现金是企业流动性最强的资产。它包括库存的人民币和外币现金。</p>
+<h2 id="现金管理制度的主要内容"><a class="markdownIt-Anchor" href="#现金管理制度的主要内容"></a> 现金管理制度的主要内容</h2>
+<h3 id="现金的使用范围"><a class="markdownIt-Anchor" href="#现金的使用范围"></a> 现金的使用范围</h3>
+<p>企业发生下列业务可用现金支付：</p>
+<ol>
+<li>职工工资、津贴</li>
+<li>个人劳务报酬</li>
+<li>根据国家规定颁发给个人的科学技术、文化 艺术、体育等各种奖金</li>
+<li>各种劳保、福利费用以及国家规定的对个人的其他支出</li>
+<li>向个人收购农副产品和其他物资的款项</li>
+<li>出差人员必须随身携带的差旅费</li>
+<li>结算起点（1000元人民币）以下的零星支出</li>
+<li>中国人民银行确定需要支付现金的其他支出</li>
+</ol>
+<p>除上述业务可以用现金支付外，其他款项的支付应通过开户银行办理转账结算</p>
+<h3 id="库存现金的限额"><a class="markdownIt-Anchor" href="#库存现金的限额"></a> 库存现金的限额</h3>
+<p>库存现金的限额是指为了保证企业日常零星开支的需要，允许企业留存现金的最高数额。这一限额由开户银行根据企业的实际需要和距离银行的远近核定，一般按照企业3天—5天的零星开支需要量确定，边远地区和交通不便地区的企业库存现金的限额可以多于5天，但不得超过15天的日常零星开支需要量。该限额一经确定，企业应严格遵守，超过部分，必须及时送存银行。需要增加或减少库存现金限额的企业，应向开户银行提出申请，由开户银行核定。</p>
+<h3 id="不准坐支现金"><a class="markdownIt-Anchor" href="#不准坐支现金"></a> 不准坐支现金</h3>
+<p>开户单位支付现金，可以从本单位库存现金限额中支付或者从开户银行提取，不得从本单位的现金收入中直接支付（即坐支）。</p>
+<p>企业如因特殊情况需要坐支现金的，应当事先报经开户银行审核批准，由开户银行核定坐支范围和限额。企业应定期向开户银行报送坐支金额和使用情况。未经银行批准，企业不得擅自坐支现金。</p>
+<h3 id="日常收支管理"><a class="markdownIt-Anchor" href="#日常收支管理"></a> 日常收支管理</h3>
+<p>开户单位必须建立健全现金账目，逐笔记载现金收付，账目要日清月结，做到账款相符。</p>
+<ol>
+<li>不准用不符合财务制度的凭证顶替库存现金；</li>
+<li>不准单位之间相互借用现金，不准谎报用途套取现金；</li>
+<li>不准利用银行账户代其他单位和个人存入或支取现金；</li>
+<li>不准将单位收入的现金以个人名义存入储蓄；</li>
+<li>不准保留账外公款(即小金库)；</li>
+<li>禁止发行变相货币，不准以任何票券代替人民币在市场上流通。</li>
+</ol>
+<h2 id="现金的总分类核算"><a class="markdownIt-Anchor" href="#现金的总分类核算"></a> 现金的总分类核算</h2>
+<p><img src="https://z3.ax1x.com/2021/04/12/cBSjg0.png" alt="cBSjg0.png" /></p>
+<h3 id="现金收入的核算"><a class="markdownIt-Anchor" href="#现金收入的核算"></a> 现金收入的核算</h3>
+<h4 id="现金收入的内容"><a class="markdownIt-Anchor" href="#现金收入的内容"></a> 现金收入的内容</h4>
+<ol>
+<li>从银行提取现金</li>
+<li>收取结算起点以下的零星销售收入款</li>
+<li>职工出差报销时交回的剩余借款</li>
+<li>收取对个人的罚款等</li>
+</ol>
+<blockquote>
+<p>收取现金时，借记库存现金，贷记有关科目。</p>
+</blockquote>
+<h3 id="现金支出的核算"><a class="markdownIt-Anchor" href="#现金支出的核算"></a> 现金支出的核算</h3>
+<p>按照现金开支范围的规定支付现金时，借记有关科目，贷记“库存现金”科目。</p>
+<h2 id="现金清查的核算"><a class="markdownIt-Anchor" href="#现金清查的核算"></a> 现金清查的核算</h2>
+<h3 id="现金的清查方法"><a class="markdownIt-Anchor" href="#现金的清查方法"></a> 现金的清查方法</h3>
+<p>实地盘点法</p>
+<h3 id="现金清查的核算方法"><a class="markdownIt-Anchor" href="#现金清查的核算方法"></a> 现金清查的核算方法</h3>
+<p>现金清查如果发现账实不符，应及时查明原因，并将短款（盘亏）或长款（盘盈）记入“<strong>待处理财产损溢</strong>”科目<br />
+<img src="https://z3.ax1x.com/2021/04/13/cr2XsP.png" alt="cr2XsP.png" /></p>
+<h3 id="现金清查结果的处理"><a class="markdownIt-Anchor" href="#现金清查结果的处理"></a> 现金清查结果的处理</h3>
+<p><img src="https://z3.ax1x.com/2021/04/13/crRkMq.png" alt="crRkMq.png" /></p>
+<p><img src="https://z3.ax1x.com/2021/04/13/crRKJJ.png" alt="crRKJJ.png" /></p>
+<p><img src="https://z3.ax1x.com/2021/04/13/crRMW9.png" alt="crRMW9.png" /></p>
+<p><img src="https://z3.ax1x.com/2021/04/13/crRhSs.png" alt="crRhSs.png" /></p>
+<p><img src="https://z3.ax1x.com/2021/04/13/crWpm6.png" alt="crWpm6.png" /></p>
+<h2 id="银行存款的核算"><a class="markdownIt-Anchor" href="#银行存款的核算"></a> 银行存款的核算</h2>
+<h3 id="银行存款账户的种类"><a class="markdownIt-Anchor" href="#银行存款账户的种类"></a> 银行存款账户的种类</h3>
+<ul>
+<li>基本存款账户</li>
+<li>一般存款账户</li>
+<li>专用存款账户</li>
+<li>临时存款账户<br />
+<img src="https://z3.ax1x.com/2021/04/13/crWUBV.png" alt="crWUBV.png" /></li>
+</ul>
+<h3 id="银行支付结算方式"><a class="markdownIt-Anchor" href="#银行支付结算方式"></a> 银行支付结算方式</h3>
+<p>开户单位之间的经济往来，除规定的范围可以使用现金外，应通过开户银行进行转账结算。</p>
+<p>各级人民银行应当严格履行金融主管机关的职责，负责对开户银行的现金管理进行监督和稽核。</p>
+<p>开户银行依照条例和中国人民银行的规定，负责现金管理的具体实施，对开户单位收支、使用现金进行监督管理。</p>
+<p><img src="https://z3.ax1x.com/2021/04/13/crWr9J.png" alt="crWr9J.png" /></p>
+<h4 id="支票"><a class="markdownIt-Anchor" href="#支票"></a> 支票</h4>
+<p>支票是出票人签发的，委托办理支票存款业务的银行在见票时无条件支付确定的金额给收款人或者持票人的票据。</p>
+<p>支票结算方式广泛应用于同城结算中。支票由银行统一印制，一般分为现金支票、转账支票和普通支票。</p>
+<blockquote>
+<p>支票的提示付款期限一般为10天。<br />
+<img src="https://z3.ax1x.com/2021/04/13/crI3yd.png" alt="crI3yd.png" /></p>
+</blockquote>
+<p><img src="https://z3.ax1x.com/2021/04/13/crIYwt.png" alt="crIYwt.png" /></p>
+<h4 id="银行本票"><a class="markdownIt-Anchor" href="#银行本票"></a> 银行本票</h4>
+<p>银行本票是银行签发的，承诺自己在见票时无条件支付确定的金额给收款人或者持票人的票据。</p>
+<p>付款单位采用银行本票结算方式，应向银行提交“银行本票申请书”，填明收款人名称、支付金额、申请日期等事项并签章；申请人或收款人为单位的，银行不予签发现金银行本票。出票银行受理后收妥款项并签发银行本票给付款人（即申请人）。</p>
+<p>收款人在收到银行本票时，应填写进账单，连同银行本票一同交开户银行办理转账结算。</p>
+<p>银行本票分为<strong>定额本票</strong>和<strong>不定额本票</strong>两种。</p>
+<p>在票面划去转账字样的，为现金本票，现金本票只能支取现金。</p>
+<blockquote>
+<p>银行本票的付款期限为自出票日起最长不超过2个月，在付款期内银行本票见票即付。这种结算方式适用于同城各种款项的结算。</p>
+</blockquote>
+<p><img src="https://z3.ax1x.com/2021/04/13/crItTP.png" alt="crItTP.png" /></p>
+<h4 id="银行汇票"><a class="markdownIt-Anchor" href="#银行汇票"></a> 银行汇票</h4>
+<p>银行汇票是出票银行签发的，由其在见票时按照实际结算金额无条件支付给收款人或者持票人的票据。</p>
+<p>付款方使用银行汇票，应向出票银行填写“银行汇票申请书”，填明收款方名称、兑付地点、用途和金额、申请人、申请日期等事项并签章，签章为其预留银行的印鉴。</p>
+<blockquote>
+<p>银行汇票适用于先收款后发货或钱货两清的异地商品交易。单位和个人均可使用。</p>
+</blockquote>
+<blockquote>
+<p>银行汇票的提示付款期限自出票日起1个月</p>
+</blockquote>
+<p><img src="https://z3.ax1x.com/2021/04/13/crouBn.png" alt="crouBn.png" /></p>
+<h4 id="商业汇票"><a class="markdownIt-Anchor" href="#商业汇票"></a> 商业汇票</h4>
+<p>商业汇票是出票人签发的，委托付款人在指定日期无条件支付确定的金额给收款人或者持票人的票据。<br />
+<img src="https://z3.ax1x.com/2021/04/13/crolNV.png" alt="crolNV.png" /></p>
+<p><img src="https://z3.ax1x.com/2021/04/13/crowAx.png" alt="crowAx.png" /></p>
+<p><img src="https://z3.ax1x.com/2021/04/13/cro0N6.png" alt="cro0N6.png" /></p>
+<h4 id="异地托收承付"><a class="markdownIt-Anchor" href="#异地托收承付"></a> 异地托收承付</h4>
+<p>异地托收承付是根据购销合同由收款单位发货后委托银行向异地付款单位收取款项，由付款单位向银行承兑付款的结算方式。</p>
+<p>使用托收承付结算方式的收款单位和付款单位，必须是国有企业、供销合作社以及经营管理较好，并经开户银行审查同意的城乡集体所有制工业企业。</p>
+<p>办理托收承付结算的款项，必须是商品交易，以及因商品交易而产生的劳务供应的款项。</p>
+<blockquote>
+<p>代销、寄销、赊销商品的款项，不得办理托收承付结算。</p>
+</blockquote>
+<p><img src="https://z3.ax1x.com/2021/04/13/cro2DA.png" alt="cro2DA.png" /></p>
+<h3 id="银行存款的总分类核算"><a class="markdownIt-Anchor" href="#银行存款的总分类核算"></a> 银行存款的总分类核算</h3>
+<p><img src="https://z3.ax1x.com/2021/04/13/crofEt.png" alt="crofEt.png" /></p>
+<h4 id="银行收入的核算"><a class="markdownIt-Anchor" href="#银行收入的核算"></a> 银行收入的核算</h4>
+<p>企业收入银行存款时，应根据有关单据，借记“银行存款”科目，贷记有关科目。</p>
+<h4 id="银行存款支出的核算"><a class="markdownIt-Anchor" href="#银行存款支出的核算"></a> 银行存款支出的核算</h4>
+<p>企业付出银行存款时，应根据有<br />
+关单据，借记有关科目，贷记“银行<br />
+存款”科目。</p>
+<h3 id="银行存款清查的核算"><a class="markdownIt-Anchor" href="#银行存款清查的核算"></a> 银行存款清查的核算</h3>
+<h4 id="清查的方法账单核算法"><a class="markdownIt-Anchor" href="#清查的方法账单核算法"></a> 清查的方法：账单核算法</h4>
+<p>帐——银行存款日记账<br />
+单——银行对账单</p>
+<h4 id="企业与银行双方余额不一致的原因主要有二"><a class="markdownIt-Anchor" href="#企业与银行双方余额不一致的原因主要有二"></a> 企业与银行双方余额不一致的原因主要有二：</h4>
+<p><img src="https://z3.ax1x.com/2021/04/13/cscGHU.png" alt="cscGHU.png" /></p>
+<h4 id="未达账项的四种情况"><a class="markdownIt-Anchor" href="#未达账项的四种情况"></a> 未达账项的四种情况</h4>
+<ol>
+<li>
+<p>银行已经收款入账，而企业尚未接到收款通知，因而尚未记账的款项，如托收货款和银行支付给企业的存款利息等。</p>
+</li>
+<li>
+<p>银行已经付款入账，而企业尚未收到付款通知，因而尚未记账的款项，如银行代企业支付公用事业费用和向企业收取的借款利息等。</p>
+</li>
+<li>
+<p>银行已经付款入账，而企业尚未收到付款通知，因而尚未记账的款项，如银行代企业支付公用事业费用和向企业收取的借款利息等。</p>
+</li>
+<li>
+<p>企业已经付款入账，而银行尚未支付入账的款项，如企业已开出的转账支票，对方尚未到银行办理转账手续的款项等。</p>
+</li>
+</ol>
+<p><img src="https://z3.ax1x.com/2021/04/13/csczrV.png" alt="csczrV.png" /></p>
+<p><img src="https://z3.ax1x.com/2021/04/13/csgEx1.png" alt="csgEx1.png" /></p>
+<h2 id="其他货币资金的核算"><a class="markdownIt-Anchor" href="#其他货币资金的核算"></a> 其他货币资金的核算</h2>
+<h3 id="其他货币资金的内容"><a class="markdownIt-Anchor" href="#其他货币资金的内容"></a> 其他货币资金的内容</h3>
+<p>其他货币资金是指除库存现金、银行存款以外的其他各种货币资金。<br />
+<img src="https://z3.ax1x.com/2021/04/13/csg1Gd.png" alt="csg1Gd.png" /></p>
+<h3 id="其他货币资金的核算-2"><a class="markdownIt-Anchor" href="#其他货币资金的核算-2"></a> 其他货币资金的核算</h3>
+<p><img src="https://z3.ax1x.com/2021/04/13/csgTQ1.png" alt="csgTQ1.png" /></p>
+<h3 id="外埠存款的核算"><a class="markdownIt-Anchor" href="#外埠存款的核算"></a> 外埠存款的核算</h3>
+<p><img src="https://z3.ax1x.com/2021/04/13/cs2yfH.png" alt="cs2yfH.png" /></p>
+<p><img src="https://z3.ax1x.com/2021/04/13/cs2IAS.png" alt="cs2IAS.png" /></p>
+<p><img src="https://z3.ax1x.com/2021/04/13/csRsbV.png" alt="csRsbV.png" /></p>
+<p><img src="https://z3.ax1x.com/2021/04/13/csRW8J.png" alt="csRW8J.png" /></p>
+
+            </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/%E4%BC%9A%E8%AE%A1%E5%AD%A6/">会计学</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/%E7%AC%94%E8%AE%B0/">笔记</a>
+                    
+                  </div>
+                
+              </div>
+              
+                <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！</p>
+              
+              
+                <div class="post-prevnext">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2021/04/13/%E5%BA%94%E6%94%B6%E5%8F%8A%E9%A2%84%E4%BB%98%E6%AC%BE%E9%A1%B9/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">应收及预付款项</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2021/04/13/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%B7%A5%E5%85%B74-6%E6%95%B0%E5%AD%A6%E6%A8%A1%E5%9E%8B%E4%BD%9C%E4%B8%9A/">
+                        <span class="hidden-mobile">数据科学工具4.6数学模型作业</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+              <!-- Comments -->
+              <article class="comments" id="comments">
+                
+                
+  <div class="disqus" style="width:100%">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      var disqus_config = function() {
+        this.page.url = 'https://sctupup.github.io/2021/04/13/%E8%B5%84%E4%BA%A7/';
+        this.page.identifier = '/2021/04/13/%E8%B5%84%E4%BA%A7/';
+      };
+      Fluid.utils.waitElementVisible('disqus_thread', function () {
+        var d = document, s = d.createElement('script');
+        s.src = '//' + '' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', new Date());
+        (d.head || d.body).appendChild(s);
+      });
+    </script>
+    <noscript>Please enable JavaScript to view the
+      <a target="_blank" href="https://disqus.com/?ref_noscript" rel="nofollow noopener noopener">comments powered by Disqus.</a>
+    </noscript>
+  </div>
+
+
+              </article>
+            
+          </article>
+        </div>
+      </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
+    
+
+    
+      <a id="scroll-top-button" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    
+  </main>
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+  </div>
+  
+
+  
+
+  
+</footer>
+
+<!-- SCRIPTS -->
+
+  <script  src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" ></script>
+<script  src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" ></script>
+<script  src="/js/debouncer.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+<!-- Plugins -->
+
+
+
+
+  
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/tocbot@4.12.0/dist/tocbot.min.js" ></script>
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" ></script>
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4.3.0/anchor.min.js" ></script>
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js" ></script>
+
+
+
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var title = document.getElementById('subtitle').title;
+      
+      typing(title)
+      
+    })(window, document);
+  </script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+  <script>
+    (function () {
+      var path = "/local-search.xml";
+      var inputArea = document.querySelector("#local-search-input");
+      inputArea.onclick = function () {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+        this.onclick = null
+      }
+    })()
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 主题的启动项 保持在最底部 -->
+<script  src="/js/boot.js" ></script>
+
+
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+</body>
+</html>
